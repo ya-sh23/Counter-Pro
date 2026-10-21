@@ -1,32 +1,43 @@
 # Counter Pro 🚀
 
-A sleek, modern, and responsive multi-counter & scenario tracking application built with **React.js**, **Tailwind CSS**, and **Lucide Icons**. Styled in a luxurious **Black, Golden Yellow, White, Light Black & Grey** dark theme.
+A futuristic, responsive, and beautifully styled multi-counter & scenario tracking application built with **React.js**, **Tailwind CSS**, and **Lucide Icons**. 
 
 ---
 
-## 🎨 Color Palette Guide
-- **Deep Dark Background**: `#09090B` (Pure Black / Zinc 950)
-- **Primary Cards & Containers**: `#18181B` (Light Black / Zinc 900)
-- **Borders & Dividers**: `#27272A` / `#3F3F46` (Grey)
-- **Accent & Highlights**: `#EAB308` (Golden Yellow)
-- **Text & Contrast**: `#FFFFFF` (White) & `#A1A1AA` (Grey)
+## ✨ Key Features
+- **Dynamic N-Fields & Scenarios**: Create and manage multiple counter groups with custom labels and buttons.
+- **Selection Modes**: Toggle between **Single Choice Mode** (incrementing one resets others in the group) and **Multiple Choice Mode** (independent counts).
+- **Responsive Compact UI**: Perfectly proportioned button sizing and clean spacing for seamless use on smartphones, tablets, and laptops.
+- **Automated History Preservation**: Automatically tracks and saves state snapshots up to a strict limit of the **latest 20 history entries**.
+- **Local Storage Persistence**: Retains state across sessions.
+- **Vercel-Ready**: Pre-configured for instant 1-click deployment on Vercel.
 
 ---
 
-## 🛠️ Where to Change Colors Manually
-If you want to customize any colors yourself in the codebase:
-1. **Background & Base Theme (`index.html`, `src/index.css`, `src/App.jsx`)**:
-   - Look for `bg-[#09090B]` (change to your preferred dark black hex code).
-2. **Card Backgrounds (`src/components/CounterField.jsx`, `src/components/HistoryView.jsx`)**:
-   - Look for `bg-[#18181B]` (Light Black container) and `bg-[#09090B]` (Inner item background).
-3. **Golden Yellow Accents (`src/components/Header.jsx`, `src/components/CounterField.jsx`)**:
-   - Look for `#EAB308` (Golden Yellow buttons, active tabs, and badges).
-4. **Borders (`src/components/CounterField.jsx`)**:
-   - Look for border classes like `border-[#27272A]` or `border-[#3F3F46]`.
+## 🚀 Getting Started Locally
+
+1. **Clone the repository / Extract ZIP:**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/counter-pro.git
+   cd counter-pro
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run Development Server:**
+   ```bash
+   npm run dev
+   ```
+   Open `http://localhost:5173` in your browser.
 
 ---
 
-## 🚀 Deployment on Vercel
-1. Push to GitHub.
-2. Import repository on Vercel.
-3. Click **Deploy**!
+🔗 **Live App URL:** [View Deployed App](https://counterpro-kappa.vercel.app/)
+
+---
+
+## 🤝 Contributing
+Contributions are welcome! Please fork the repository and open a pull request with your improvements.
